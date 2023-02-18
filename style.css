@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+    background-image: url("Background.PNG");
+    margin: 0;
+}
+
+#preloader {
+  background: #000 url("preloader.gif") no-repeat center center;
+  background-size: 15%;
+  height:100vh;
+  width:100%;
+  position: fixed;
+  z-index: 100;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+    background-color: aliceblue;
+    background-image: url("Background.PNG");
+}
+  
+.userinfo {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-image: url("Background.PNG");
+    border: solid;
+    border-radius: 3px;
+    border-color: aliceblue;
+}
+
+#upic {
+  width: 200px;
+  height: 200px;
+}
+
+#uinfo {
+  text-align: left;
+  grid-column: 2 / 3;
+  margin-left: 20px;
+}
+  
+.auditinfo {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-image: url("Background.PNG");
+    border: solid;
+    border-radius: 3px;
+    border-color: aliceblue;
+}
+#auditgraph {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+  margin-top: 22px;
+}
+#auditxps {
+  display: grid;
+  grid-row: 2 / 3;
+  grid-column: 2 / 2;
+}
+
+#auditxpdone {
+  grid-row: 1 / 2;
+}
+
+#auditxpreceived {
+  grid-row: 4 / 4;
+}
+
+#auditratio {
+  grid-row: 3 / 3;
+  
+}
+
+  
+.levelinfo {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    background-image: url("Background.PNG");
+    border: solid;
+    border-radius: 3px;
+    border-color: aliceblue;
+}
+  
+.xpprogression {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    background-image: url("Background.PNG");
+    border: solid;
+    border-radius: 3px;
+    border-color: aliceblue;
+}
+  
+.xpearnedbyproject {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+    background-image: url("Background.PNG");
+    border: solid;
+    border-radius: 3px;
+    border-color: aliceblue;
+}
+  
+.userinfo, .auditinfo, .levelinfo, .xpprogression, .xpearnedbyproject {
+    padding: 10px;
+    background-color: white;
+    color: #333;
+    font-size: 18px;
+    text-align: center;
+}
+  
+.userinfo:hover, .auditinfo:hover, .levelinfo:hover, .xpprogression:hover, .xpearnedbyproject:hover {
+    background-color: #f2f2f2;
+}
+#chart {
+  width: 300px;
+  height: 300px;
+}
+
+line {
+  stroke: brown;
+  stroke-width: 3;
+}
+
+path {
+  stroke: blue;
+  stroke-width: 2px;
+  fill: none;
+}
+  
+.skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 70%);
+  }
+
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}
