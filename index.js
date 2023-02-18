@@ -575,4 +575,4 @@ const clearData = () => {
   d3.select("#xpprogression").select("svg").remove();
 };
 
-defaultMain("harlet");
+defaultMain("taneln");
