@@ -1,7 +1,6 @@
 body {
     font-family: Arial, sans-serif;
     background-color: aliceblue;
-    background-image: url("Background.jpg");
     margin: 0;
 }
 
@@ -32,6 +31,7 @@ body {
     border: solid;
     border-radius: 3px;
     border-color: rgb(245, 4, 4);
+    
 }
 
 #upic {
