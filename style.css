@@ -31,7 +31,7 @@ body {
     background-image: url("Background.PNG");
     border: solid;
     border-radius: 3px;
-    border-color: aliceblue;
+    border-color: rgb(245, 4, 4);
 }
 
 #upic {
@@ -52,7 +52,7 @@ body {
     background-image: url("Background.PNG");
     border: solid;
     border-radius: 3px;
-    border-color: aliceblue;
+    border-color: rgb(18, 2, 247);
 }
 #auditgraph {
   grid-row: 2 / 3;
@@ -85,16 +85,16 @@ body {
     background-image: url("Background.PNG");
     border: solid;
     border-radius: 3px;
-    border-color: aliceblue;
+    border-color: rgb(39, 244, 8);
 }
   
 .xpprogression {
     grid-column: 1 / 4;
     grid-row: 2 / 3;
-    background-image: url("Background.PNG");
+    background-color: #f2f2f2;
     border: solid;
     border-radius: 3px;
-    border-color: aliceblue;
+    border-color: rgb(15, 16, 16);
 }
   
 .xpearnedbyproject {
@@ -103,7 +103,7 @@ body {
     background-image: url("Background.PNG");
     border: solid;
     border-radius: 3px;
-    border-color: aliceblue;
+    border-color: rgb(4, 246, 214);
 }
   
 .userinfo, .auditinfo, .levelinfo, .xpprogression, .xpearnedbyproject {
